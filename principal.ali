@@ -1,0 +1,102 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U principal%b		principal.adb		1ca5f5dd NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.unchecked_deallocation%s
+W colas%s		colas.adb		colas.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210601075304 eff36322 ada.unchecked_deallocation%s
+D colas.ads		20250305130829 5f1bdf14 colas%s
+D colas.adb		20250305135018 345943c9 colas%b
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D principal.adb		20250302103617 cba39993 principal%b
+D system.ads		20210601075304 4635ec04 system%s
+D s-conca2.ads		20210601075304 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-imgint.ads		20210601075304 02dbe0c2 system.img_int%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 13|1r6 1r30
+X 6 a-textio.ads
+49K13*Text_IO 471e16 13|1w10 1r34
+166U14*New_Line 13|18s9 22s9 25s17 32s9 35s9 44s9 47s9 88s9 91s9
+242U14*Put 13|24s58 27s57 36s55 48s57 56s57 71s58 93s57
+263U14*Put_Line 13|13s9 19s9 23s9 26s9 30s9 33s9 36s9 39s9 42s9 45s9 51s9
+. 53s9 55s9 70s9 86s9 89s9 92s9 96s9 102s25 103s25 106s9 109s17 110s17 112s17
+. 113s17
+X 9 colas.ads
+5k9*Colas 35e10 13|1w19 3r41
+7R14 cola_t 13|7r21[3]
+11U19 Poner 13|11s17[3] 16s17[3] 29s9[3] 40s9[3] 41s9[3] 60s33[3] 66s17[3]
+. 68s9[3] 80s17[3] 83s17[3] 99s17[3]
+12U19 Quitar 13|50s9[3] 60s17[3] 63s17[3] 74s17[3] 77s17[3] 99s32[3]
+14V18 Esta_Vacia{boolean} 13|59s19[3] 62s19[3] 73s19[3] 76s19[3]
+16U19 MostrarCola 13|14s9[3] 20s9[3] 31s9[3] 34s9[3] 43s9[3] 46s9[3] 52s9[3]
+. 54s9[3] 87s9[3] 90s9[3]
+18U19 Copiar 13|29s24[3]
+19V19 "="{boolean} 13|24s15[3] 27s15[3] 37s15[3] 48s15[3] 56s15[3] 71s15[3]
+. 93s15[3]
+X 13 principal.adb
+2U11*Principal 2b11 114l5 114t14
+3K17 Colas_de_Integer[9|5] 4r13
+5X9 Practica_no_Apta 24r32 27r31 37r32 48r31 56r31 71r32 93r31 108r14
+7r9 C1{9|7R14[3]} 11m27 11r27 14r21 24r12 24r18 27r12 60m43 60r43 71r12 99m27
+. 99r27 99m43 99r43
+7r13 C2{9|7R14[3]} 16m27 16r27 20r21 27r17 29r32 31r21 37r12 41m21 41r21
+. 43r21 48r12 52r21 56r12 59r31 60m28 60r28 66m27 66r27 68m20 68r20 71r18
+. 76r31 77m28 77r28 80m27 80r27 87r21 93r12
+7r17 C3{9|7R14[3]} 29m19 29r19 29m36 29r36 34r21 37r18 40m21 40r21 46r21
+. 48r17 50m20 50r20 54r21 56r17 62r31 63m28 63r28 73r31 74m28 74r28 83m27
+. 83r27 90r21 93r17
+8i9 E{integer} 50m17 60m25 60r40 63m25 74m25 77m25 99m40
+10i13 I{integer} 11r24
+15i13 I{integer} 16r24
+65i13 I{integer} 66r24
+79i13 I{integer} 80r24
+82i13 I{integer} 83r24
+97i13 I{integer}
+
