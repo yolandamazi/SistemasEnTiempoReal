@@ -104,7 +104,7 @@ X 7 horno.adb
 X 10 retardadores.ads
 2f4 Retardo{float} 7|10r34
 3+9 Elementos 7|11r32
-4i4 Tamaño{positive} 7|12r35
+4i4 TamaÃ±o{positive} 7|12r35
 5k9*Retardadores 7|2w6 10r20 10|9e17
 6U14*Escribir 7|75s34[9]
 7U14*Leer 7|61s34[9]
