@@ -1,0 +1,123 @@
+V "GNAT Lib v9"
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U fracciones%b		fracciones.adb		dd3d04d9 NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+Z ada.text_io.integer_io%s
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+U fracciones%s		fracciones.ads		7ac4c7f7 EE NE OO PK
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-tiinau.ads		20210601075304 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20210601075304 aa04e5d6 ada.text_io.integer_io%s
+D a-tiinio.adb		20210601075304 df9cd7af ada.text_io.integer_io%b
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D fracciones.ads	20240221113605 7ac4c7f7 fracciones%s
+D fracciones.adb	20240221122126 2fe47074 fracciones%b
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D system.ads		20210601075304 4635ec04 system%s
+D s-conca3.ads		20210601075304 0b705ca5 system.concat_3%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-imgint.ads		20210601075304 02dbe0c2 system.img_int%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 12|1r6 1r23 4r31
+X 6 a-textio.ads
+49K13*Text_IO 471e16 12|1w10 1r27 4r35
+263U14*Put_Line 12|142s17
+X 8 a-tiinio.ads
+46k21*Integer_IO 85e27 12|4r43
+X 11 fracciones.ads
+2K9*Fracciones 26E14 30l5 30e15 12|3b14 172l5 172t15
+3R14*fraccion_t 6r42 8r29 8r48 9r26 9r45 10r29 10r48 11r29 11r48 12r29 12r48
+. 13r29 16r32 17r32 20r45 23r31 24r32 26c14 29e19 12|36r42 38r40 58r29 58r48
+. 59r29 69r26 69r45 70r29 81r29 81r48 82r29 91r29 91r48 92r29 102r29 102r48
+. 103r29 125r29 135r32 140r32 146r45 147r29 163r32 168r33
+5V18*MCD{integer} 5>22 5>25 12|7b18 33l13 33t16 44s41
+5i22 a{integer} 12|7b22 8r29 13r35 17r30
+5i25 b{integer} 12|7b25 10r32 14r30 16r35
+6U19*irreducible 6=32 12|36b19 55l13 55t24 64s17 75s17 85s17 96s17 120s17
+. 137s17 157s17
+6r32 X{3R14} 12|36b32 40r20 44r45 44r52 46r61 47r61 49r61 50r61 52m33 53m33
+8V19*"+"{3R14} 8>23 8>26 12|58b19 66l14 66t16 84s31
+8r23 X{3R14} 12|58b23 61r34 62r35 62r76
+8r26 Y{3R14} 12|58b26 61r42 62r51 62r62
+9V19*"-"{3R14} 9>23 12|69b19 78l14 78t16 84s33
+9r23 X{3R14} 12|69b23 72r37 73r34
+10V19*"-"{3R14} 10>23 10>26 12|81b19 88l14 88t16
+10r23 X{3R14} 12|81b23 84r30
+10r26 Y{3R14} 12|81b26 84r34
+11V19*"*"{3R14} 11>23 11>26 12|91b19 99l14 99t16
+11r23 X{3R14} 12|91b23 94r34 95r34
+11r26 Y{3R14} 12|91b26 94r40 95r40
+12V19*"/"{3R14} 12>23 12>26 12|102b19 123l14 123t16
+12r23 X{3R14} 12|102b23 106r24 107r32
+12r26 Y{3R14} 12|102b26 106r38 107r39
+13V19*"="{boolean} 13>23 13>26 12|125b19 132l14 132t16
+13r23 X{3R14} 12|125b23 127r20 127r51
+13r26 Y{3R14} 12|125b26 127r34 127r58
+16U19*Leer 16<25 12|135b19 138l13 138t17
+16r25 F{3R14} 12|135b25 137m29
+17U19*Escribir 17>29 12|140b19 143l13 143t21
+17r29 F{3R14} 12|140b29 142r26 142r46
+20V19*"/"{3R14} 20>23 20>26 12|146b19 160l14 160t16
+20i23 X{integer} 12|146b23 150r47 153r42
+20i26 Y{integer} 12|146b26 149r20 151r47 154r42
+23V18*Numerador{integer} 23>29 12|163b18 166l13 166t22
+23r29 F{3R14} 12|163b29 165r24
+24V18*Denominador{positive} 24>30 12|168b18 171l13 171t24
+24r30 F{3R14} 12|168b31 170r24
+27i17*Num{integer} 12|40r22 41m46 44r47 46m54 46r63 49m54 49r63 52m35 52r63
+. 62m27 62r37 62r64 72m27 72r39 94m27 94r36 94r42 106r26 107r41 110m35 113m35
+. 116m35 127r22 127r60 142r28 150m35 153m35 165r26
+28i17*Den{positive} 12|42m46 44r54 47m54 47r63 50m54 50r63 53m35 53r63 61m27
+. 61r36 61r44 62r53 62r78 73m27 73r36 95m27 95r36 95r42 106r40 107r34 111m35
+. 114m35 117m35 127r36 127r53 142r48 151m35 154m35 170r26
+X 12 fracciones.adb
+4K17 Ent_Es[8|46]
+8i9 Result{integer} 12r20 13m25 16m25 22r30 23m25
+9i9 Resultado{integer} 27m25 29m25 32r24
+9i20 Result2{integer} 21m25 26r20 27r38 29r38
+10i17 R{integer} 12r30 14m25 17m25 20r23 21r36 22m25 22r41 23r35
+37i17 MCD_Fraccion{integer} 44m25 45r28 49r69 50r69
+38r17 fraccion_irreducible{11|3R14} 41m25 42m25 46m33 47m33 49m33 50m33 52r42
+. 53r42
+59r17 Resultado{11|3R14} 61m17 62m17 64m29 64r29 65r24
+70r17 Resultado{11|3R14} 72m17 73m17 75m29 75r29 77r24
+82r17 Resultado{11|3R14} 84m17 85m29 85r29 87r24
+92r17 Resultado{11|3R14} 94m17 95m17 96m29 96r29 98r24
+103r17 Resultado{11|3R14} 110m25 111m25 113m25 114m25 116m25 117m25 120m29
+. 120r29 122r24
+104i17 Num{integer} 106m17 110r47 116r42
+104i22 Den{integer} 107m17 109r20 111r47 112r23 117r42
+147r17 Resultado{11|3R14} 150m25 151m25 153m25 154m25 157m29 157r29 159r24
+
