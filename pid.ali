@@ -1,0 +1,82 @@
+V "GNAT Lib v9"
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U pid%b			pid.adb			ac551106 NE OO PK GE IU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+Z ada.text_io.float_io%s
+
+U pid%s			pid.ads			43ecaad7 BN EE NE OO PK GE IU
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-tiflau.ads		20210601075304 c0393f21 ada.text_io.float_aux%s
+D a-tiflio.ads		20210601075304 56fbda09 ada.text_io.float_io%s
+D a-tiflio.adb		20210601075304 fd9b1cfc ada.text_io.float_io%b
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D pid.ads		20240413180343 43ecaad7 pid%s
+D pid.adb		20250409194547 67a4088b pid%b
+D system.ads		20210601075304 4635ec04 system%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 1r23 5r32
+X 6 a-textio.ads
+49K13*Text_IO 471e16 14|1w10 1r27 5r36
+X 8 a-tiflio.ads
+46k21*Float_IO 89e25 14|5r44
+X 13 pid.ads
+2F9 Real 9r48 16r19 18r23 19r23 14|5r53 8r78 17r70 21r29 21r39
+3F9 Entrada 11r51 14|16r73
+4F9 Salida 12r51 14|16r88 44r18
+5k9*PID 2z9 3z9 4z9 14E9 21l5 21e8 14|3b14 50l5 50t8
+6R9*Controlador 8r48 10r51 14c9 20e14 14|8r53 16r56
+8U14*Programar 8=25 9>29 9>33 9>37 14|8b19 14l13 14t22
+8r25 el_Controlador{6R9} 14|8b30 11m13 12m13 13m13
+9*29 Kp{2F9} 14|8b66 11r34
+9*33 Ki{2F9} 14|8b70 12r34
+9*37 Kd{2F9} 14|8b74 13r34
+10U14*Controlar 10=24 11>38 11>41 12<41 14|16b19 48l13 48t22
+10r24 con_el_Controlador{6R9} 14|16b29 22m13 22r46 28r25 28r57 31r41 31r78
+. 33r24 46m13
+11*38 R{3F9} 14|16b69 21r34
+11*41 C{3F9} 14|16b71 21r44
+12*41 U{4F9} 14|16b82 44m13
+16*7 Kp{2F9} 14|11m28 33r43
+16*11 Ki{2F9} 14|12m28 28r76
+16*15 Kd{2F9} 14|13m28 31r97
+18*7 S_Anterior{2F9} 14|22m32 22r65 28r44
+19*7 Error_Anterior{2F9} 14|31r60 46m32
+X 14 pid.adb
+5K17 Real_ES[8|46]
+17*13 error_actual{13|2F9} 21m13 22r78 25r29 31r26 46r50
+17*27 proporcional{13|2F9} 25m13 33r49
+17*41 integral{13|2F9} 28m13 33r64
+17*51 derivada{13|2F9} 31m13 33r75
+17*61 U_Float{13|2F9} 33m13 40r16 41m17 44r25
+

@@ -1,0 +1,84 @@
+V "GNAT Lib v9"
+P ZX
+
+RN
+RV NO_ABORT_STATEMENTS
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_PROTECTED_TYPES
+RV NO_TASKING
+RV SPARK_05
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U retardadores%b	retardadores.adb	06be3190 NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+
+U retardadores%s	retardadores.ads	3ad953b4 BN EE NE OO PK GE
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-reatim.ads		20210601075304 0240fc73 ada.real_time%s
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-c.ads		20210601075304 5421119b interfaces.c%s
+D retardadores.ads	20240413180158 3ad953b4 retardadores%s
+D retardadores.adb	20240413180208 3e279e57 retardadores%b
+D system.ads		20210601075304 4635ec04 system%s
+D s-atacco.ads		20210601075304 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-linux.ads		20210601075304 ed0b8aee system.linux%s
+D s-multip.ads		20210601075304 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20221024092806 0b994636 system.os_constants%s
+D s-osinte.ads		20221024092806 710cf8c6 system.os_interface%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210601075304 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20210601075304 2b3f8252 system.task_info%s
+D s-taspri.ads		20210601075304 f40ac08d system.task_primitives%s
+D s-taprop.ads		20210601075304 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20210601075304 b9d612e2 system.tasking%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+X 1 ada.ads
+16K9*Ada 20e8 8|1r6 1r25
+X 3 a-reatim.ads
+39K13*Real_Time 185e18 8|1w10 1r29
+49O9*Time<duration> 8|35r27
+54O9*Time_Span<duration> 8|33r25
+61V13*Clock{49O9} 8|35s35
+65V14*"+"{49O9} 8|40s51
+112V13*To_Time_Span{54O9} 8|34s11
+X 7 retardadores.ads
+2f4 Retardo{float} 8|34r34
+3+9 Elementos 6r37 7r37 8|3r49 6r40 7r40 11r24 14r40 18r40 44r37 48r37
+4i4 Tamaño{positive} 8|3r38 34r52
+5k9*Retardadores 2z4 3z9 4z4 9l5 9e17 8|2b14 56l5 56t17
+6U14*Escribir 6>24 8|44b14 47l8 47t16
+6*24 el_Elemento{3+9} 8|44b24 46r34
+7U14*Leer 7<20 8|48b14 51l8 51t12
+7*20 un_Elemento{3+9} 8|48b20 50m30
+8U14*Parar 8|52b14 55l8 55t13
+X 8 retardadores.adb
+3A9 array_Elementos(7|3+9)<integer> 10r14
+5w14 Línea_de_Retardo 13b19 29l8 29t24 39r10 46r7 50r7
+6U17 Escribir 6>27 14b17 17l11 17t19 46s24
+6*27 el_Elemento{7|3+9} 14b27 16r21
+7U17 Leer 7<23 18b17 21l11 21t15 50s24
+7*23 un_Elemento{7|3+9} 18b23 20m10
+8U17 Desplazar 22b17 28l11 28t20 39s27
+10a7 Línea{3A9} 24r20 24r27 25m10 25r17 25r32 26r27 26r34 26r47 27m10 27r17
+11*7 Entrada{7|3+9} 16m10 27r33
+11*16 Salida{7|3+9} 20r25 24m10
+31t9 Centinela 32b14 42l8 42t17 54r13
+33o7 Periodo{3|54O9} 40r53
+35o7 Instante_Siguiente{3|49O9} 38r22 40m10 40r32
+X 20 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

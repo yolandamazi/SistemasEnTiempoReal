@@ -1,0 +1,26 @@
+V "GNAT Lib v9"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV SPARK_05
+
+U calefactor%b		calefactor.adb		2a047646 NE OO PK
+W horno%s		horno.adb		horno.ali
+
+U calefactor%s		calefactor.ads		7ef44599 EE NE OO PK
+
+D calefactor.ads	20240413180235 7ef44599 calefactor%s
+D calefactor.adb	20240413180250 cd3f8026 calefactor%b
+D horno.ads		20240413175814 99cfb3f9 horno%s
+D system.ads		20210601075304 4635ec04 system%s
+X 1 calefactor.ads
+1K9*Calefactor 8l5 8e15 2|2b14 7l5 7t15
+5F9*Potencias<float> 7r37 2|3r37
+7U14*Escribir 7>24 2|3b14 6l8 6t16
+7f24 la_Potencia{5F9} 2|3b24 5r39
+X 3 horno.ads
+1K9*Horno 2|1w6 5r7 5r23 3|7e10
+3F9*Potencias<float> 2|5r29
+5U14*Escribir 2|5s13
+

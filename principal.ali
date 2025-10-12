@@ -1,0 +1,136 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U principal%b		principal.adb		e4a94dd4 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+Z ada.text_io.float_io%s
+W calefactor%s		calefactor.adb		calefactor.ali
+W pid%s			pid.adb			pid.ali
+W sensor%s		sensor.adb		sensor.ali
+Z system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20210601075304 0240fc73 ada.real_time%s
+D a-retide.ads		20210601075304 081cdaa4 ada.real_time.delays%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-tiflau.ads		20210601075304 c0393f21 ada.text_io.float_aux%s
+D a-tiflio.ads		20210601075304 56fbda09 ada.text_io.float_io%s
+D a-tiflio.adb		20210601075304 fd9b1cfc ada.text_io.float_io%b
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D calefactor.ads	20240413180235 7ef44599 calefactor%s
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-c.ads		20210601075304 5421119b interfaces.c%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D pid.ads		20240413180343 43ecaad7 pid%s
+D pid.adb		20250409194547 67a4088b pid%b
+D principal.adb		20250409203622 1c2812fc principal%b
+D sensor.ads		20240413180327 4fc4ff4f sensor%s
+D system.ads		20210601075304 4635ec04 system%s
+D s-atacco.ads		20210601075304 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-fatflt.ads		20210601075304 11beb392 system.fat_flt%s
+D s-fatgen.ads		20210601075304 49cbaf86 system.fat_gen%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-linux.ads		20210601075304 ed0b8aee system.linux%s
+D s-multip.ads		20210601075304 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20221024092806 0b994636 system.os_constants%s
+D s-osinte.ads		20221024092806 710cf8c6 system.os_interface%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210601075304 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20210601075304 2b3f8252 system.task_info%s
+D s-taspri.ads		20210601075304 f40ac08d system.task_primitives%s
+D s-taprop.ads		20210601075304 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20210601075304 b9d612e2 system.tasking%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 19|1r6 1r23 2r6 2r25 9r35 10r34 11r42
+X 4 a-reatim.ads
+39K13*Real_Time 185e18 19|2w10 2r29
+49O9*Time<duration> 19|19r54
+54O9*Time_Span<duration> 19|20r25
+61V13*Clock{49O9} 19|32s27 33s28 60s31
+65V14*"+"{49O9} 19|34s39 41s41
+71V14*"-"{54O9} 19|68s59
+80V14*">="{boolean} 19|75r38
+110V13*To_Duration{duration} 19|68s34
+119V13*Milliseconds{54O9} 19|20s38 41s43
+122V13*Seconds{54O9} 19|34s41
+X 8 a-textio.ads
+49K13*Text_IO 471e16 19|1w10 1r27 9r39 10r38 11r46
+73I12*Field{integer}
+166U14*New_Line 19|73s15
+242U14*Put 19|36s11 67s15 69s15 71s15
+X 10 a-tiflio.ads
+46k21*Float_IO 89e25 19|9r47 10r46 11r54
+57U14 Get 19|37s20[9]
+68U14 Put 19|68s24[9] 70s24[9] 72s24[9]
+71i7 Aft{8|73I12} 19|68r85[9] 70r54[9] 72r31[9]
+72i7 Exp{8|73I12} 19|68r95[9] 70r64[9] 72r41[9]
+X 13 calefactor.ads
+1K9*Calefactor 8e15 19|5w6 5r22 50r15
+5F9*Potencias<float> 19|50r35
+7U14*Escribir 19|50s26
+X 17 pid.ads
+2F9 Real 19|12r41
+3F9 Entrada 19|12r56
+4F9 Salida 19|12r74
+5k9*PID 21e8 19|3w6 12r36
+6R9 Controlador 19|21r38[12]
+8U14 Programar 19|29s21[12]
+9f29 Kp{float} 19|29r47[12]
+9f33 Ki{float} 19|29r59[12]
+9f37 Kd{float} 19|29r70[12]
+10U14 Controlar 19|47s25[12]
+X 19 principal.adb
+7U11*principal 7b11 78l5 78t14
+9K19 Float_ES[10|46] 37r11 68r15 70r15 72r15
+10K19 Real_ES[10|46]
+11K19 Temperaturas_ES[10|46]
+12K19 PID_Float[17|5] 21r28 29r11 47r15
+18o11 duracion{duration} 34r57
+19o11 tiempoActual{4|49O9} 32m11 34r26 41r28 60m15 68r46 75r25
+19o25 tiempoInicial{4|49O9} 33m11 68r61
+19o40 tiempoFinal{4|49O9} 34m11 75r41
+20o11 Ts{4|54O9}
+21r11 controladorPID{17|6R9[12]} 29m31 29r31 47m35 47r35
+22f11 temperaturaReferencia{float} 37m24 47r51
+23f11 temperaturaActual{20|2F9} 44m27 47r80 70r34
+24f11 P{float} 47m100 50r45 72r28
+X 20 sensor.ads
+1K9*Sensor 19|4w6 4r18 44r15 20|5e11
+2F9*Temperaturas<float> 19|11r63 23r31
+4U14*Leer 19|44s22
+X 36 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

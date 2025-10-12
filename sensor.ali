@@ -1,0 +1,26 @@
+V "GNAT Lib v9"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV SPARK_05
+
+U sensor%b		sensor.adb		8f056307 NE OO PK
+W horno%s		horno.adb		horno.ali
+
+U sensor%s		sensor.ads		4fc4ff4f EE NE OO PK
+
+D horno.ads		20240413175814 99cfb3f9 horno%s
+D sensor.ads		20240413180327 4fc4ff4f sensor%s
+D sensor.adb		20240413180335 590e2fb1 sensor%b
+D system.ads		20210601075304 4635ec04 system%s
+X 1 horno.ads
+1K9*Horno 7e10 3|1w6 5r7 5r19
+2F9*Temperaturas<float> 3|5r25
+6U14*Leer 3|5s13
+X 2 sensor.ads
+1K9*Sensor 5l5 5e11 3|2b14 7l5 7t11
+2F9*Temperaturas<float> 4r40 3|3r40
+4U14*Leer 4<20 3|3b14 6l8 6t12
+4f20 la_Temperatura{2F9} 3|3b20 5m38 5r38
+
