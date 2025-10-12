@@ -1,0 +1,54 @@
+V "GNAT Lib v9"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV SPARK_05
+
+U sensor%b		sensor.adb		a87eb0a4 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W horno%s		horno.adb		horno.ali
+
+U sensor%s		sensor.ads		4fc4ff4f EE NE OO PK
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D horno.ads		20240319173131 99cfb3f9 horno%s
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D sensor.ads		20240319173137 4fc4ff4f sensor%s
+D sensor.adb		20250318113815 f6684f48 sensor%b
+D system.ads		20210601075304 4635ec04 system%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 12|1r6 1r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 12|1w10 1r27
+X 8 horno.ads
+1K9*Horno 7e10 12|2w6 2r17 7r9 7r20
+2F9*Temperaturas<float> 12|7r26
+6U14*Leer 12|7s15
+X 11 sensor.ads
+1K9*Sensor 5l5 5e11 12|4b14 10l5 10t11
+2F9*Temperaturas<float> 4r40 12|5r40
+4U14*Leer 4<20 12|5b14 8l8 8t12
+4f20 la_Temperatura{2F9} 12|5b20 7m39 7r39
+

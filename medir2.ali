@@ -1,0 +1,119 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U medir2%b		medir2.adb		df1bdb93 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+Z ada.text_io.float_io%s
+W calefactor%s		calefactor.adb		calefactor.ali
+W sensor%s		sensor.adb		sensor.ali
+Z system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-calend.ads		20210601075304 b288ede8 ada.calendar%s
+D a-caldel.ads		20210601075304 9f20b83d ada.calendar.delays%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20210601075304 0240fc73 ada.real_time%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-tiflau.ads		20210601075304 c0393f21 ada.text_io.float_aux%s
+D a-tiflio.ads		20210601075304 56fbda09 ada.text_io.float_io%s
+D a-tiflio.adb		20210601075304 fd9b1cfc ada.text_io.float_io%b
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D calefactor.ads	20240319173141 7ef44599 calefactor%s
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-c.ads		20210601075304 5421119b interfaces.c%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D medir2.adb		20250318132045 64762e6c medir2%b
+D sensor.ads		20240319173137 4fc4ff4f sensor%s
+D system.ads		20210601075304 4635ec04 system%s
+D s-atacco.ads		20210601075304 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-fatflt.ads		20210601075304 11beb392 system.fat_flt%s
+D s-fatgen.ads		20210601075304 49cbaf86 system.fat_gen%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-linux.ads		20210601075304 ed0b8aee system.linux%s
+D s-multip.ads		20210601075304 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20221024092806 0b994636 system.os_constants%s
+D s-osinte.ads		20221024092806 710cf8c6 system.os_interface%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210601075304 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20210601075304 2b3f8252 system.task_info%s
+D s-taspri.ads		20210601075304 f40ac08d system.task_primitives%s
+D s-taprop.ads		20210601075304 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20210601075304 b9d612e2 system.tasking%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 18|1r6 1r23 2r6 2r25 8r32
+X 6 a-reatim.ads
+39K13*Real_Time 185e18 18|2w10 2r29
+49O9*Time<duration> 18|10r29
+54O9*Time_Span<duration>
+61V13*Clock{49O9} 18|25s22 36s20
+71V14*"-"{54O9} 18|40s51
+110V13*To_Duration{duration} 18|40s31
+X 9 a-textio.ads
+49K13*Text_IO 471e16 18|1w10 1r27 8r36
+73I12*Field{integer}
+166U14*New_Line 18|45s9 49s9 53s9 57s9 65s9
+242U14*Put 18|21s9 43s9 47s9 51s9 55s9 63s9
+X 11 a-tiflio.ads
+46k21*Float_IO 89e25 18|8r44
+57U14 Get 18|22s17[8]
+68U14 Put 18|44s17[8] 48s17[8] 52s17[8] 56s17[8] 64s17[8]
+70i7 Fore{9|73I12} 18|44r40[8] 48r38[8] 52r40[8] 56r35[8] 64r25[8]
+71i7 Aft{9|73I12} 18|44r51[8] 48r49[8] 52r51[8] 56r46[8] 64r36[8]
+72i7 Exp{9|73I12} 18|44r61[8] 48r59[8] 52r61[8] 56r56[8] 64r46[8]
+X 14 calefactor.ads
+1K9*Calefactor 8e15 18|4w6 4r22 26r9 67r9
+5F9*Potencias<float> 18|13r28
+7U14*Escribir 18|26s20 67s20
+X 18 medir2.adb
+6U11*Medir2 6b11 69l5 69t11
+8K17 Real_Es[11|46] 22r9 44r9 48r9 52r9 56r9 64r9
+10o9 T_Inicial{6|49O9} 25m9 40r53
+10o20 T_Final{6|49O9} 36m9 40r43
+11f9 T_Actual{19|2F9} 29m29 30r37 33r23 37m21 39r36 48r27 60r63
+11f19 T_Anterior{19|2F9} 33m9 39r47 44r27
+12f9 Ct{float} 61m9 64r21
+12f13 Delta_Temperatura{float} 39m9 52r21 61r27
+12f32 Delta_Tiempo{float} 40m9 56r21 60r83
+13f9 Potencia_Medicion{14|5F9} 26r29 60r29
+14f9 Numerador{float} 60m9 61r15
+17f9 Te{19|2F9} 30r48 60r74
+18f9 Cp{float} 22m21 60r51
+X 19 sensor.ads
+1K9*Sensor 18|3w6 3r18 29r17 37r9 19|5e11
+2F9*Temperaturas<float> 18|11r31 17r14
+4U14*Leer 18|29s24 37s16
+X 35 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+
