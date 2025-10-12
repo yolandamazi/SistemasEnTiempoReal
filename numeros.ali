@@ -1,0 +1,109 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U numeros%b		numeros.adb		f69b6d14 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+Z ada.text_io.enumeration_io%s
+Z ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+Z ada.text_io.float_io%s
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+Z ada.text_io.integer_io%s
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.val_enum%s	s-valenu.adb		s-valenu.ali
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-tienau.ads		20210601075304 6a9c157b ada.text_io.enumeration_aux%s
+D a-tienio.ads		20210601075304 fc618ae6 ada.text_io.enumeration_io%s
+D a-tienio.adb		20210601075304 c9e6b5af ada.text_io.enumeration_io%b
+D a-tiflau.ads		20210601075304 c0393f21 ada.text_io.float_aux%s
+D a-tiflio.ads		20210601075304 56fbda09 ada.text_io.float_io%s
+D a-tiflio.adb		20210601075304 fd9b1cfc ada.text_io.float_io%b
+D a-tiinau.ads		20210601075304 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20210601075304 aa04e5d6 ada.text_io.integer_io%s
+D a-tiinio.adb		20210601075304 df9cd7af ada.text_io.integer_io%b
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D numeros.adb		20250219093934 7e86de4e numeros%b
+D system.ads		20210601075304 4635ec04 system%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-fatflt.ads		20210601075304 11beb392 system.fat_flt%s
+D s-fatgen.ads		20210601075304 49cbaf86 system.fat_gen%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-imenne.ads		20210601075304 614c06c0 system.img_enum_new%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-valenu.ads		20210601075304 bb1a4295 system.val_enum%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 19|5r6 5r23 16r26 17r27 18r26
+X 6 a-textio.ads
+49K13*Text_IO 471e16 19|5w10 5r27 16r30 17r31 18r30
+73I12*Field{integer}
+78I12*Number_Base{integer}
+166U14*New_Line 19|30s4 35s4 40s4 48s4 56s4 64s4 64s16 72s4 76s4 83s4 83s14
+208U14*Put 19|37s20 38s20 44s4 46s4 52s4 54s4 60s4 62s4 74s22 74s51 79s4
+. 81s4
+242U14*Put 19|31s4 33s4 68s4 70s4
+X 8 a-tienio.ads
+26k21*Enumeration_IO 55e31 19|18r38
+40U14 Put 19|86s11[18]
+X 11 a-tiflio.ads
+46k21*Float_IO 89e25 19|17r39
+57U14 Get 19|69s12[17] 71s12[17]
+68U14 Put 19|74s12[17] 74s42[17] 75s12[17] 78s12[17] 80s12[17] 82s12[17]
+70i7 Fore{6|73I12} 19|78r20[17] 80r20[17] 82r22[17]
+71i7 Aft{6|73I12} 19|78r31[17] 80r31[17] 82r34[17]
+72i7 Exp{6|73I12} 19|78r41[17] 80r41[17] 82r44[17]
+X 14 a-tiinio.ads
+46k21*Integer_IO 85e27 19|16r38
+56U14 Get 19|32s11[16] 34s11[16]
+66U14 Put 19|37s11[16] 38s11[16] 39s4[16] 43s11[16] 45s11[16] 47s11[16] 51s11[16]
+. 53s11[16] 55s11[16] 59s11[16] 61s11[16] 63s11[16]
+68i7 Width{6|73I12} 19|61r19[16] 63r21[16]
+69i7 Base{6|78I12} 19|43r19[16] 45r19[16] 47r21[16] 51r19[16] 53r19[16] 55r21[16]
+X 19 numeros.adb
+8U11*numeros 8b11 87l5 87t12
+11E9 Luz_de_Trafico_t 11e49 18r53 24r14
+11n30 Rojo{11E9} 24r34
+11n36 Ambar{11E9}
+11n43 Verde{11E9}
+16K12 Ent_Es[14|46] 16r63 32r4 34r4 37r4 38r4 43r4 45r4 47r4 51r4 53r4 55r4
+. 59r4 61r4 63r4
+17K12 Real_Es[11|46] 69r4 71r4 74r4 74r34 75r4 78r4 80r4 82r4
+18K12 Sem_Es[8|26] 86r4
+22i4 I{integer} 32m16 37r16 39r9 43r16 47r16 51r16 55r16 59r16 63r16
+22i7 J{integer} 34m16 38r16 39r11 45r16 47r18 53r16 55r18 61r16 63r18
+23f4 X{float} 69m17 74r17 75r17 78r17 82r17
+23f7 Y{float} 71m17 74r47 75r19 80r17 82r19
+24e4 semaforo{11E9} 86r15
+
