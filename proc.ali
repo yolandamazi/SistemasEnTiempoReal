@@ -1,0 +1,68 @@
+V "GNAT Lib v9"
+P ZX
+
+RN
+RV SPARK_05
+
+U proc%b		proc.adb		7fc3ec41 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+
+U proc%s		proc.ads		b02b0f6d EE NE OO PK
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-reatim.ads		20210601075304 0240fc73 ada.real_time%s
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-c.ads		20210601075304 5421119b interfaces.c%s
+D proc.ads		20250425180959 b02b0f6d proc%s
+D proc.adb		20250425181006 cda81f5f proc%b
+D system.ads		20210601075304 4635ec04 system%s
+D s-atacco.ads		20210601075304 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-linux.ads		20210601075304 ed0b8aee system.linux%s
+D s-multip.ads		20210601075304 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20221024092806 0b994636 system.os_constants%s
+D s-osinte.ads		20221024092806 710cf8c6 system.os_interface%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210601075304 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20210601075304 2b3f8252 system.task_info%s
+D s-taspri.ads		20210601075304 f40ac08d system.task_primitives%s
+D s-taprop.ads		20210601075304 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20210601075304 b9d612e2 system.tasking%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+X 1 ada.ads
+16K9*Ada 20e8 8|1r6 2r6
+X 3 a-reatim.ads
+39K13*Real_Time 185e18 8|1w10 2r10
+49O9*Time<duration> 8|10r11
+54O9*Time_Span<duration>
+61V13*Clock{49O9} 8|12s13 15s13
+71V14*"-"{54O9} 8|15s18
+101V14*"<"{boolean} 8|15r22
+119V13*Milliseconds{54O9} 8|15s24
+X 7 proc.ads
+1K9*Proc 6l5 6e9 8|3b14 36l5 36t9
+2U14*P1 8|20b14 22l8 22t10
+3U14*P2 8|24b14 26l8 26t10
+4U14*P3 8|28b14 30l8 30t10
+5U14*P4 8|32b14 34l8 34t10
+X 8 proc.adb
+4N4 C1 21r17
+5N4 C2 25r17
+6N4 C3 29r17
+7N4 C4 33r17
+9U14 Retardar 9b14 9>24 18l8 18t16 21s7 25s7 29s7 33s7
+9i24 Retardo{natural} 15r37
+10o7 T1{3|49O9} 12m7 15r19
+X 20 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

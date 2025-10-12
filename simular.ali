@@ -1,0 +1,129 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV STATIC_PRIORITIES
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+RV MAX_TASKS=1+
+
+U simular%b		simular.adb		a010f3b9 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.real_time.delays%s  a-retide.adb		a-retide.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W plan%s		plan.adb		plan.ali
+W proc%s		proc.adb		proc.ali
+Z system%s		system.ads		system.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.concat_5%s	s-conca5.adb		s-conca5.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-calend.ads		20210601075304 b288ede8 ada.calendar%s
+D a-caldel.ads		20210601075304 9f20b83d ada.calendar.delays%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20210601075304 0240fc73 ada.real_time%s
+D a-retide.ads		20210601075304 081cdaa4 ada.real_time.delays%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-c.ads		20210601075304 5421119b interfaces.c%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D plan.ads		20250425215944 a27480e2 plan%s
+D proc.ads		20250425180959 b02b0f6d proc%s
+D simular.adb		20250427185207 3812331f simular%b
+D system.ads		20210601075304 4635ec04 system%s
+D s-atacco.ads		20210601075304 4c36d12f system.address_to_access_conversions%s
+D s-conca3.ads		20210601075304 0b705ca5 system.concat_3%s
+D s-conca5.ads		20210601075304 875e432e system.concat_5%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-imgint.ads		20210601075304 02dbe0c2 system.img_int%s
+D s-linux.ads		20210601075304 ed0b8aee system.linux%s
+D s-multip.ads		20210601075304 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20221024092806 0b994636 system.os_constants%s
+D s-osinte.ads		20221024092806 710cf8c6 system.os_interface%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210601075304 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20210601075304 2b3f8252 system.task_info%s
+D s-taspri.ads		20210601075304 f40ac08d system.task_primitives%s
+D s-taprop.ads		20210601075304 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20210601075304 b9d612e2 system.tasking%s
+D s-tassta.ads		20210601075304 cca55c94 system.tasking.stages%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 17|1r6 1r19 2r5 2r18
+X 6 a-reatim.ads
+39K13*Real_Time 185e18 17|1w23 2r22
+49O9*Time<duration> 17|19r36 21r34 22r37
+54O9*Time_Span<duration> 17|20r33
+61V13*Clock{49O9} 17|21s42 22s45 25s40 32s37 34s35 43s141 45s82
+65V14*"+"{49O9} 17|41s58
+71V14*"-"{54O9} 17|25s46 35s49 43s139 45s88
+110V13*To_Duration{duration} 17|25s28 37s36 43s112 45s70
+119V13*Milliseconds{54O9} 17|41s60
+X 10 a-textio.ads
+49K13*Text_IO 471e16 17|1w10 2r9
+263U14*Put_Line 17|26s33 38s33 43s25 45s25 60s9
+X 15 plan.ads
+3K9*Plan 30e9 17|1w34 2r33
+X 16 proc.ads
+1K9*Proc 6e9 17|1w40 2r39
+2U14*P1 17|50r49
+3U14*P2 17|51r50
+4U14*P3 17|52r50
+5U14*P4 17|53r50
+X 17 simular.adb
+4U11*Simular 4b11 62l5 62t12
+6P14 ref_Procedimiento_t 14r33
+8T19 Tarea_t 9d17 10d17 11d17 12d17 13d17 14d17 16l13 16e20 18b19 48l13 48t20
+. 50r18 51r18 52r18 53r18
+9i17 Nombre{natural} 38r53 43r45
+10i17 T{natural} 41r73
+11i17 D{natural} 37r83
+12i17 C{natural}
+13i17 P{natural} 15r29
+14p17 Codigo_Ciclico{6P14} 33r25
+19o17 tInicial{6|49O9} 32m25 35r51
+19o27 tFinal{6|49O9} 34m25 35r42
+20o17 tTranscurrido{6|54O9} 35m25 37r48
+21o17 proxActivacion{6|49O9} 30r37 41m25 41r43 43r124
+22o17 primeraActivacion{6|49O9} 25r48 45r90
+50t9 Tarea1{8T19}
+51t9 Tarea2{8T19}
+52t9 Tarea3{8T19}
+53t9 Tarea4{8T19}
+55o9 duracion{duration} 59r24
+X 34 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

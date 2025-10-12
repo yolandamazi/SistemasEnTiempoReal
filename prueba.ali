@@ -1,0 +1,78 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U prueba%b		prueba.adb		7e9f671a NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+Z ada.text_io.integer_io%s
+W plan%s		plan.adb		plan.ali
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-tiinau.ads		20210601075304 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20210601075304 aa04e5d6 ada.text_io.integer_io%s
+D a-tiinio.adb		20210601075304 df9cd7af ada.text_io.integer_io%b
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D plan.ads		20250425215944 a27480e2 plan%s
+D proc.ads		20250425180959 b02b0f6d proc%s
+D prueba.adb		20240501204442 54f654a2 prueba%b
+D system.ads		20210601075304 4635ec04 system%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 2r5
+X 6 a-textio.ads
+49K13*Text_IO 471e16 15|1w10 2r9
+73I12*Field{integer}
+242U14*Put 15|18s17 19s51 20s46 21s46 22s46 23s46 24s46
+263U14*Put_Line 15|11s9 13s9 15s9 26s25 28s25 31s9
+X 8 a-tiinio.ads
+46k21*Integer_IO 85e27 15|4r35
+66U14 Put 15|19s17[4] 20s17[4] 21s17[4] 22s17[4] 23s17[4] 24s17[4]
+68i7 Width{6|73I12} 15|19r40[4] 20r35[4] 21r35[4] 22r35[4] 23r35[4] 24r35[4]
+X 13 plan.ads
+3K9*Plan 30e9 15|1w19 2r18
+8i17*Nombre{positive} 15|19r32
+9i17*T{natural} 15|20r32
+10i17*D{natural} 15|21r32
+11i17*C{natural} 15|22r32
+12i17*P{positive} 15|23r32
+13i17*R{natural} 15|24r32
+14b17*Planificable{boolean} 15|25r30
+18A14*array_reg_Planificacion_t(7R14)<integer> 15|5r17
+24U19*Planificar 15|10s9
+X 15 prueba.adb
+3U11*Prueba 3b11 33l5 33t11
+4K17 Integer_Es[8|46] 4r61
+5a9 Tareas{13|18A14} 10m21 10r21 17r18 19r22 20r22 21r22 22r22 23r22 24r22
+. 25r20
+17i13 I{integer} 19r29 20r29 21r29 22r29 23r29 24r29 25r27
+

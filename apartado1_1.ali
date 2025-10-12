@@ -1,0 +1,64 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U apartado1_1%b		apartado1_1.adb		2773d2cc NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W plan%s		plan.adb		plan.ali
+W proc%s		proc.adb		proc.ali
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D apartado1_1.adb	20250427180525 bd31ee19 apartado1_1%b
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D plan.ads		20250425215944 a27480e2 plan%s
+D proc.ads		20250425180959 b02b0f6d proc%s
+D system.ads		20210601075304 4635ec04 system%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 8|1r6 2r5
+X 6 a-textio.ads
+49K13*Text_IO 471e16 8|1w10 2r9
+X 8 apartado1_1.adb
+4U11*Apartado1_1 4b11 19l5 19t16
+5a9 Tareas{11|18A14} 17m45 17r45
+12a9 Procedimientos{11|17A14} 14r35 17r20
+14a9 Tiempos{11|19A14} 17m36
+X 11 plan.ads
+3K9*Plan 8|1w19 2r18 17r9 11|30e9
+6P14*ref_Procedimiento_t
+17A14*array_ref_Procedimiento_t(6P14)<integer> 8|12r26
+18A14*array_reg_Planificacion_t(7R14)<integer> 8|5r18
+19A14*array_Tiempos_t(natural)<integer> 8|14r19
+25U19*Medir 8|17s14
+X 12 proc.ads
+1K9*Proc 8|1w25 2r24 12|6e9
+2U14*P1 8|12r56
+3U14*P2 8|12r67
+4U14*P3 8|12r78
+5U14*P4 8|12r89
+
