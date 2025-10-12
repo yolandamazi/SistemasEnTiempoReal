@@ -12,7 +12,7 @@ package PID is
                                         U: out    Salida);
 private
    type Controlador is record
-      -- Par·metros del controlador
+      -- Par√°metros del controlador
       Kp, Ki, Kd: Real;
       -- Estado del controlador
       S_Anterior    : Real := 0.0; -- s(n-1) Condiciones de
