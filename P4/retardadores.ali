@@ -57,7 +57,7 @@ X 3 a-reatim.ads
 X 7 retardadores.ads
 2f4 Retardo{float} 8|34r34
 3+9 Elementos 6r37 7r37 8|3r49 6r40 7r40 11r24 14r40 18r40 44r37 48r37
-4i4 Tamaño{positive} 8|3r38 34r52
+4i4 TamaÃ±o{positive} 8|3r38 34r52
 5k9*Retardadores 2z4 3z9 4z4 9l5 9e17 8|2b14 56l5 56t17
 6U14*Escribir 6>24 8|44b14 47l8 47t16
 6*24 el_Elemento{3+9} 8|44b24 46r34
@@ -66,13 +66,13 @@ X 7 retardadores.ads
 8U14*Parar 8|52b14 55l8 55t13
 X 8 retardadores.adb
 3A9 array_Elementos(7|3+9)<integer> 10r14
-5w14 Línea_de_Retardo 13b19 29l8 29t24 39r10 46r7 50r7
+5w14 LÃ­nea_de_Retardo 13b19 29l8 29t24 39r10 46r7 50r7
 6U17 Escribir 6>27 14b17 17l11 17t19 46s24
 6*27 el_Elemento{7|3+9} 14b27 16r21
 7U17 Leer 7<23 18b17 21l11 21t15 50s24
 7*23 un_Elemento{7|3+9} 18b23 20m10
 8U17 Desplazar 22b17 28l11 28t20 39s27
-10a7 Línea{3A9} 24r20 24r27 25m10 25r17 25r32 26r27 26r34 26r47 27m10 27r17
+10a7 LÃ­nea{3A9} 24r20 24r27 25m10 25r17 25r32 26r27 26r34 26r47 27m10 27r17
 11*7 Entrada{7|3+9} 16m10 27r33
 11*16 Salida{7|3+9} 20r25 24m10
 31t9 Centinela 32b14 42l8 42t17 54r13
