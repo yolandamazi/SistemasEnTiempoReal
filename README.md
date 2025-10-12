@@ -1,6 +1,6 @@
 <h1 align="center"> ⏱️ Real-Time Systems Labs</h1>
 
-![Ada](https://img.shields.io/badge/Ada-02F88C?style=for-the-badge&logo=ada&logoColor=white)
+![Ada](https://img.shields.io/badge/Ada-800080?style=for-the-badge&logo=ada&logoColor=white)
 
 A series of labs for Real-Time Systems, implemented in Ada, covering key concepts in real-time programming. Each lab focuses on a specific aspect of real-time systems, including task timing, inter-task communication, interrupt handling, synchronization, shared resource management, inter-process communication, and error handling.
 
